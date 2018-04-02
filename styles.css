@@ -1,0 +1,154 @@
+/*сброс стилей*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*подключение шрифтов*/
+@font-face { 
+font-family: 'Lato'; 
+font-style: normal; 
+font-weight: 400; 
+src: url(./font/9622.ttf); 
+} 
+/*конец подключения шрифтов*/
+.all {width: 100%; margin: auto; margin-top: 0px; margin-bottom:0px;
+font-family: Lato;}
+.content {}
+.logo { margin-bottom: 26px; background-color: #f6f9f9; 
+	padding-left: 302px; padding-bottom: 32px; padding-top: 32px;  
+}
+.banner { width: 100%;
+	background-image: url(./images/top.png); background-repeat: no-repeat;
+	padding-bottom: 285px;
+	padding-top: 220px;
+	text-align: center;
+	background-size: cover;
+}
+.banner a{
+	border: 1px solid; color: ; padding-left: 32px; padding-right: 32px; 
+	padding-top: 23px; padding-bottom: 23px;
+	border-color: #1E90FF;
+	text-decoration: none; color: #fff;
+}
+.banner p {
+	padding-top: 39px;
+	padding-bottom: 66px; 
+	color: #fff;
+	  
+}
+h1 {  font-size: 120px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.392;
+  text-align: center; padding-bottom: 40px; padding-top: 191px;
+}
+hr {margin-top: 0; margin-bottom: 0; background-color: rgb(21, 164, 250);width: 600px;
+
+}
+.text {background:#f6f9f9;}
+.text h2 { font-size: 40px;
+  font-family: "Lato";
+  color: rgb(45, 57, 80);
+  line-height: 1.2;
+  text-align: center; padding-top: 56px; padding-bottom: 0;  
+}
+.text p {padding-bottom: 115px; 
+	padding-top: 36px; 
+	text-align: center;
+	margin:auto; width: 1140px;
+    font-size: 20px;
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+  
+}
+.plus {padding-bottom: 65px; padding-top: 197px;}
+.plus section {  font-size: 15px;
+         color: rgb(153, 153, 153);
+         line-height: 1.467;
+         display: inline-block;  
+         text-align: center; 
+         width: 33%}
+.plus h3 {  font-size: 22px;
+  color: rgb(45, 57, 80);
+  line-height: 1.2;
+}
+.portfolio {background-color: #f6f9f9}
+.portfolio h1 {  font-size: 41px;
+  color: rgb(45, 57, 80);
+  line-height: 1.2;
+}
+.portfolio p {text-align: center; padding-top: 80px; background-color: #f6f9f9;}
+
+.portfolio table { border-spacing: 30px 30px; border: 0px; }
+.portfolio img {width: 360px; height: 260px}
+
+.footer {width: 100%; background-image: url(./images/footer.png)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
