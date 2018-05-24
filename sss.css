@@ -10,5 +10,11 @@
     line-height: 1.8;
     }
 .section-6 {
+    background-color:#fff;
     padding: 60px 0 60px 0;
+}
+.section-7{
+    background-color:#111;
+    font-family: Brandon;
+    padding: 100px 0 100px 0;
 }
