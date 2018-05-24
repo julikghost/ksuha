@@ -1,0 +1,14 @@
+.section-5 .man_1 q, .man_2 q {
+    font-size: 26px;
+    color: rgb(119, 119, 119);
+    line-height: 1.1;
+      quotes: "\201c" "\201d";
+}
+.section-5 p.author {
+    font-size: 20px;
+    color: rgb(118, 144, 197);
+    line-height: 1.8;
+    }
+.section-6 {
+    padding: 60px 0 60px 0;
+}
